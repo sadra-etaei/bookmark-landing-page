@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    background-color: white;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.logo{
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.navbar{
+    margin-top: -20px;
+    padding-right: 55px;
+    text-align: end;
+}
+button {
+    cursor: pointer;
+}
+.navbar button{
+    margin-left: 50px;
+    height: 40px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    cursor: pointer;
+}
+a{
+    padding-left: 50px ;
+    text-decoration: none;
+    color: black ;
+}
+.text{
+    padding-left: 150px;
+    margin-top: 150px;
+    width: 40vw;
+}
+ h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(229, 31%, 21%);
+}
+p{
+    line-height: 30px;
+    font-size: 20px;
+    color: hsl(229, 8%, 60%);
+}
+.text button {
+    margin-right: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+#b-1{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+#b-2{
+    border: 1px solid black;
+    background-color: white;
+    color: #000;
+}
+
+.info img{
+    margin-top: -250px;
+    margin-left: 55vw;
+}
+.info-2{
+    text-align: center;
+}
+.info-2 a{
+    margin-right: 50px;
+}
+.text-2 p {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    width: 660px;
+    margin-left: 440px;
+}
+.info-3 img {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.info-3 button {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+.content-1{
+    margin-top: -300px;
+    width: 40vw;
+    margin-left: 50vw;
+}
+.content-2,.content-3{
+    display: none
+}
+.text-4{
+    text-align: center;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 35vw;
+    margin-bottom: 100px;
+    
+}
+a{
+    cursor: pointer;
+}
+.boxes{
+    margin-top: 50px;
+}
+.box{
+    text-align: center;
+    box-shadow: 0.5px 0.5px 3px rgb(216, 214, 214);
+    height: 280px;
+    width: 220px;
+    border-radius: 10px;
+}
+.box button {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -20px;
+}
+.box img {
+    margin-top: 10px;
+}
+#box-1{
+    margin-left: 400px;
+}
+#box-2{
+    margin-top: -230px;
+    margin-left: 650px;
+}
+#box-3{
+    margin-top: -190px;
+    margin-left: 900px;
+}
+.faq{
+    text-align: center;
+}
+.questions{
+    margin-top: 50px;
+    margin-left:550px;
+    text-align: left;
+}
+#p-1{
+    display: none;
+}
+#p-2{
+    display: none;
+}
+#p-3{
+    display: none;
+}
+#p-4{
+    display: none;
+}
+.q{
+    width: 400px;
+    display: grid;
+    border-top: 1px solid black;
+}
+.q input{
+    margin-top: -33px;
+    margin-left: 350px;
+}
+.questions button{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 125px;
+    margin-bottom: 50px;
+}
+.footer-1{
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+}
+.footer-1 button {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px; 
+    border: none;
+    background-color: white;
+}
+.footer-1 input{
+    height: 25px; 
+}
+.footer-2{
+    /* display: inline-block; */
+    width: 100%;
+    height: 10vh;
+    background-color: hsl(229, 31%, 21%);
+}
+.footer-2 img{
+    margin-top: 20px;
+    margin-left:50px ;
+}
+.footer-2 a{
+    position: relative;
+    color: white;
+}
+.social{
+    text-align: end;
+    margin-right: 30px;
+    padding-left: 0px;
+    margin-top:-40px ;
+}
